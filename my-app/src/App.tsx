@@ -9,9 +9,9 @@ import './App.scss';
 const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+      <header className="App-header" >
+        <p className="anime--flash">
+          I'm web-full-stack.
         </p>
         <span>
           <a href="https://m.facebook.com/monotori333"
