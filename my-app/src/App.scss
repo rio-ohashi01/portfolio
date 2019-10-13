@@ -34,6 +34,24 @@
   display: inline-block;
   vertical-align: top;
 }
+
+.skills {
+  padding: 0 5% 20px;
+  width: 50%;
+  display: inline-block;
+}
+
+.skills--child {
+  position: relative;
+}
+
+.skills--name {
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
 @keyframes typing {
   0% {
     width: 0;

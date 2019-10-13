@@ -5,7 +5,17 @@ import ghlogo from './GitHub_logo.png';
 import { MailOutline, AspectRatio, CloudOutlined, Build, DesktopWindowsRounded } from '@material-ui/icons/';
 import profileImg from './IMG_0980.jpg';
 import 'typeface-roboto';
+import CircularProgress from '@material-ui/core/CircularProgress';
+
 import './App.scss';
+
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    progress: {
+      margin: theme.spacing(3),
+    },
+  })
+);
 
 const App: React.FC = () =>
 {
@@ -49,6 +59,69 @@ const App: React.FC = () =>
           <span className="profile--image">
             <img src={profileImg} className="profile--image"></img>
           </span>
+          <span>
+            <div className="skills">
+              <span className="skills--child">
+                <span className="skills--name">Java + Spring</span>
+                <CircularProgress
+                  className={classes.progress}
+                  variant="static"
+                  value={80}
+                  thickness={10}
+                  size={100}
+                />
+              </span>
+              <span className="skills--child">
+                <span className="skills--name">PHP + Symfony</span>
+                <CircularProgress
+                  className={classes.progress}
+                  variant="static"
+                  value={60}
+                  thickness={10}
+                  size={100}
+                />
+              </span>
+              <span className="skills--child">
+                <span className="skills--name">HTML</span>
+                <CircularProgress
+                  className={classes.progress}
+                  variant="static"
+                  value={70}
+                  thickness={10}
+                  size={100}
+                />
+              </span>
+              <span className="skills--child">
+                <span className="skills--name">CSS</span>
+                <CircularProgress
+                  className={classes.progress}
+                  variant="static"
+                  value={70}
+                  thickness={10}
+                  size={100}
+                />
+              </span>
+              <span className="skills--child">
+                <span className="skills--name">Javascript</span>
+                <CircularProgress
+                  className={classes.progress}
+                  variant="static"
+                  value={80}
+                  thickness={10}
+                  size={100}
+                />
+              </span>
+              <span className="skills--child">
+                <span className="skills--name">React.js</span>
+                <CircularProgress
+                  className={classes.progress}
+                  variant="static"
+                  value={40}
+                  thickness={10}
+                  size={100}
+                />
+              </span>
+            </div>
           </span>
         </div>
       </div>
