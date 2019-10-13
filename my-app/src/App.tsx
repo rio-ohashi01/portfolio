@@ -4,9 +4,17 @@ import lilogo from './LI_logo.png';
 import ghlogo from './GitHub_logo.png';
 import { MailOutline, AspectRatio, CloudOutlined, Build, DesktopWindowsRounded } from '@material-ui/icons/';
 import profileImg from './IMG_0980.jpg';
+import 'typeface-roboto';
 import './App.scss';
 
-const App: React.FC = () => {
+const App: React.FC = () =>
+{
+  let styles = {
+    root: {
+      fontFamily: 'Roboto'
+    }
+  }
+
   return (
     <div className="App">
       <header className="App-header" >
@@ -35,7 +43,16 @@ const App: React.FC = () => {
             <MailOutline fontSize="large" color="action" className="logo-link" />
           </a></span>
       </header>
-    </div>
+      <div>
+        <div className="profile">
+          <p className="heading--medium">ABOUT US</p>
+          <span className="profile--image">
+            <img src={profileImg} className="profile--image"></img>
+          </span>
+          </span>
+        </div>
+      </div>
+    </div >
   );
 }
 

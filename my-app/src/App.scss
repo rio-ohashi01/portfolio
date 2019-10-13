@@ -16,11 +16,24 @@
 .App-link {
   color: #09d3ac;
 }
+
+.heading--medium {
+  font-size: 50px;
+  font-weight: bold;
+  color: #a2a4a4;
+}
+
+.logo-link {
   height: 4vmin;
   filter: invert(1);
   margin: 0 5px;
 }
 
+.profile--image {
+  height: 40vmin;
+  display: inline-block;
+  vertical-align: top;
+}
 @keyframes typing {
   0% {
     width: 0;
