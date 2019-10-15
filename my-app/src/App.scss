@@ -13,8 +13,6 @@
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
 }
 
 .heading--medium {
@@ -29,27 +27,37 @@
   margin: 0 5px;
 }
 
-.profile--image {
-  height: 40vmin;
+.heading--medium {
+  font-size: 50px;
+  font-weight: bold;
+  color: #a2a4a4;
+  margin: 6vmin 0;
+}
+
+.profile {
+  padding: 0 5vmin;
+}
+
+.profile--summary {
+  font-size: 18px;
+  color: gray;
+  margin: 0 0 30px 0;
+}
+
+.profile--left {
   display: inline-block;
   vertical-align: top;
 }
 
-.skills {
-  padding: 0 5% 20px;
-  width: 50%;
+.profile--right {
   display: inline-block;
 }
 
-.skills--child {
-  position: relative;
+.profile--image {
+  height: 50vmin;
+  margin-bottom: 20px;
 }
 
-.skills--name {
-  font-weight: bold;
-  position: absolute;
-  text-align: center;
-  width: 100%;
 }
 
 @keyframes typing {
@@ -80,4 +88,14 @@
   border-right: 0.05em solid;
   animation: typing 1.5s steps(19) infinite alternate,
     cursor 0.8s steps(1) infinite;
+
+.skills--child {
+  position: relative;
+}
+
+.skills--name {
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  width: 100%;
 }
