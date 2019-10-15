@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9a230f06.chunk.css",
-    "main.js": "/portfolio/static/js/main.1f746e7e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1f746e7e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.7afc4f3f.chunk.css",
+    "main.js": "/portfolio/static/js/main.2d2d8800.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2d2d8800.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.341b3be4.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.341b3be4.js.map",
     "static/css/2.15c52e38.chunk.css": "/portfolio/static/css/2.15c52e38.chunk.css",
     "static/js/2.a7b04eec.chunk.js": "/portfolio/static/js/2.a7b04eec.chunk.js",
     "static/js/2.a7b04eec.chunk.js.map": "/portfolio/static/js/2.a7b04eec.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.2568b8bb1a20dad65c9619fcd0a1fe7b.js": "/portfolio/precache-manifest.2568b8bb1a20dad65c9619fcd0a1fe7b.js",
+    "precache-manifest.34c8f70dbe4cc1c2eb44f1339e5494fe.js": "/portfolio/precache-manifest.34c8f70dbe4cc1c2eb44f1339e5494fe.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.15c52e38.chunk.css.map": "/portfolio/static/css/2.15c52e38.chunk.css.map",
-    "static/css/main.9a230f06.chunk.css.map": "/portfolio/static/css/main.9a230f06.chunk.css.map",
+    "static/css/main.7afc4f3f.chunk.css.map": "/portfolio/static/css/main.7afc4f3f.chunk.css.map",
     "static/media/IMG_0980.jpg": "/portfolio/static/media/IMG_0980.ff18f83e.jpg",
     "static/media/LI_logo.png": "/portfolio/static/media/LI_logo.2161c94b.png",
     "static/media/index.css": "/portfolio/static/media/roboto-latin-900italic.ebf6d164.woff2"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.341b3be4.js",
     "static/css/2.15c52e38.chunk.css",
     "static/js/2.a7b04eec.chunk.js",
-    "static/css/main.9a230f06.chunk.css",
-    "static/js/main.1f746e7e.chunk.js"
+    "static/css/main.7afc4f3f.chunk.css",
+    "static/js/main.2d2d8800.chunk.js"
   ]
 }
