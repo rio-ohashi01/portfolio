@@ -68,7 +68,7 @@ const App: React.FC = () =>
   return (
     <div className="App" style={styles.root}>
       <header className="App-header" >
-        <p className="anime--flash">
+        <p className="summary"  >
           I'm web-full-stack.
         </p>
         <span>
@@ -87,11 +87,6 @@ const App: React.FC = () =>
             rel="noopener noreferrer">
             <img src={ghlogo} className="logo-link" />
           </a>
-          <a href="https://github.com/rio-ohashi"
-            target="_blank"
-            rel="noopener noreferrer">
-            <MailOutline fontSize="large" color="action" className="logo-link" />
-          </a></span>
         </span>
       </header>
       <Grid container className={classes.root} spacing={4}>
@@ -219,7 +214,7 @@ const App: React.FC = () =>
                   variant="static"
                   value={80}
                   thickness={10}
-                  size={100}
+                  size={95}
                 />
               </span>
               <span className="skills--child">
@@ -227,9 +222,9 @@ const App: React.FC = () =>
                 <CircularProgress
                   className={classes.progress}
                   variant="static"
-                  value={60}
+                  value={70}
                   thickness={10}
-                  size={100}
+                  size={95}
                 />
               </span>
               <span className="skills--child">
@@ -237,9 +232,9 @@ const App: React.FC = () =>
                 <CircularProgress
                   className={classes.progress}
                   variant="static"
-                  value={70}
+                  value={80}
                   thickness={10}
-                  size={100}
+                  size={95}
                 />
               </span>
               <span className="skills--child">
@@ -249,7 +244,7 @@ const App: React.FC = () =>
                   variant="static"
                   value={70}
                   thickness={10}
-                  size={100}
+                  size={95}
                 />
               </span>
               <span className="skills--child">
@@ -259,7 +254,7 @@ const App: React.FC = () =>
                   variant="static"
                   value={80}
                   thickness={10}
-                  size={100}
+                  size={95}
                 />
               </span>
               <span className="skills--child">
@@ -267,9 +262,29 @@ const App: React.FC = () =>
                 <CircularProgress
                   className={classes.progress}
                   variant="static"
-                  value={40}
+                  value={50}
                   thickness={10}
-                  size={100}
+                  size={95}
+                />
+              </span>
+              <span className="skills--child">
+                <span className="skills--name">SQL</span>
+                <CircularProgress
+                  className={classes.progress}
+                  variant="static"
+                  value={70}
+                  thickness={10}
+                  size={95}
+                />
+              </span>
+              <span className="skills--child">
+                <span className="skills--name">AWS</span>
+                <CircularProgress
+                  className={classes.progress}
+                  variant="static"
+                  value={70}
+                  thickness={10}
+                  size={95}
                 />
               </span>
             </div>
