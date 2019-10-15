@@ -68,21 +68,63 @@
 #email2 {
   display: block;
 }
+
+@media screen and (max-width: 500px) {
+  .anime--flash {
+    font-size: 25px;
   }
   10% {
     width: 0;
+@media screen and (max-width: 800px) {
+  .profile--left {
+    width: 60vmin;
   }
   30% {
     width: 19ch;
+  .profile--image {
+    height: 60vmin;
   }
   100% {
     width: 19ch;
+  #email1 {
+    display: none;
+  }
+  #email2 {
+    display: block;
   }
 }
 
 @keyframes cursor {
   50% {
     border-right-color: transparent;
+@media screen and (min-width: 801px) and (max-width: 950px) {
+  .profile--right {
+    max-width: 60vmin;
+  }
+  .profile--image {
+    height: 40vmin;
+  }
+  #email1 {
+    display: grid;
+  }
+  #email2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 951px) {
+  .profile--right {
+    min-width: 70vmin;
+    max-width: 85vmin;
+  }
+  .profile--image {
+    height: 40vmin;
+  }
+  #email1 {
+    display: grid;
+  }
+  #email2 {
+    display: none;
   }
 }
 .anime--flash {
