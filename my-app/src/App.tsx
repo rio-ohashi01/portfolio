@@ -13,6 +13,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import CircularProgress from '@material-ui/core/CircularProgress';
+import Button from '@material-ui/core/Button';
 
 import './App.scss';
 
@@ -33,20 +34,35 @@ const useStyles = makeStyles((theme: Theme) =>
     progress: {
       margin: theme.spacing(3),
     },
+    iconLink: {
+      color: 'rgb(255,255,255)',
+    },
     iconExperience: {
       fontSize: 60,
       height: '100%',
       color: 'rgb(220, 125, 6)',
+    },
+    button: {
+      margin: theme.spacing(1),
+      height: 40,
+      backgroundColor: 'rgb(45, 45, 58)',
+    },
+    email: {
+      textDecoration: 'None',
+      fontSize: 20,
     },
   })
 );
 
 const App: React.FC = () =>
 {
-  let styles = {
+  const [spacing] = React.useState<GridSpacing>(3);
+  const classes = useStyles();
+
+  const styles = {
     root: {
       fontFamily: 'Roboto'
-    }
+    },
   }
 
   return (
@@ -182,10 +198,19 @@ const App: React.FC = () =>
       <div>
         <div className="profile">
           <p className="heading--medium">ABOUT US</p>
-          <span className="profile--image">
+          <span className="profile--left">
             <img src={profileImg} className="profile--image"></img>
+            <a id="email1" className={classes.email} href="mailto:rio.ohashi01@gmail.com">
+              <Button variant="contained" color="primary" className={classes.button}>
+                CONTACT ME
+                <EmailOutlined className={classes.iconLink} />
+              </Button>
+            </a>
           </span>
-          <span>
+          <span className="profile--right">
+            <p className="profile--summary">
+              Hi! My name is Rio Ohashi.I'm a Web Developer, and highly adaptable and eager to learn new technologies continuously to improve my skills.
+              </p>
             <div className="skills">
               <span className="skills--child">
                 <span className="skills--name">Java + Spring</span>
@@ -249,6 +274,12 @@ const App: React.FC = () =>
               </span>
             </div>
           </span>
+          <a id="email2" className={classes.email} href="mailto:rio.ohashi01@gmail.com">
+            <Button variant="contained" color="primary" className={classes.button}>
+              CONTACT ME
+                <EmailOutlined className={classes.iconLink} />
+            </Button>
+          </a>
         </div>
       </div>
     </div >

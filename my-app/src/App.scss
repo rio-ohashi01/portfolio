@@ -58,11 +58,16 @@
   margin-bottom: 20px;
 }
 
+#email1 {
+  display: none;
 }
 
 @keyframes typing {
   0% {
     width: 0;
+#email2 {
+  display: block;
+}
   }
   10% {
     width: 0;
