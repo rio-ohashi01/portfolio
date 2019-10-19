@@ -11,6 +11,7 @@ import Grid, { GridSpacing } from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
+import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import Button from '@material-ui/core/Button';
@@ -23,10 +24,26 @@ const useStyles = makeStyles((theme: Theme) =>
       flexGrow: 1,
     },
     card: {
-      height: 180,
-      width: 300,
       backgroundColor: '#eae7e1',
+      minHeight: 180,
+      width: 300,
       boxShadow: 'none',
+    },
+    paperSummary: {
+      backgroundColor: '#eae7e1',
+      width: '20%',
+      boxShadow: 'none',
+      alignSelf: 'center',
+    },
+    paperDetail: {
+      backgroundColor: '#eae7e1',
+      width: '75%',
+      boxShadow: 'none',
+      paddingLeft: '15px'
+    },
+    typographyProjectDetail: {
+      marginBottom: '15px',
+      color: '#847e71',
     },
     media: {
       height: 80,
@@ -189,13 +206,13 @@ const App: React.FC = () =>
         </Paper>
         <Paper className={classes.paperDetail}>
           <Typography variant="h4" align="left">Searching JS plugin</Typography>
-          <Typography component="p" align="left">
+          <Typography className={classes.typographyProjectDetail} component="p" align="left">
             Made a site that explained a JavaScript map plugin Leaflet for developers who developed a customer management tool.
             The site had maps to introduce each functions and design.
           </Typography>
           <Typography variant="h4" align="left">Employee management site</Typography>
-          <Typography component="p" align="left">
-            Made a few site that employee management with Vue.js + Nuxt.js
+          <Typography className={classes.typographyProjectDetail} component="p" align="left">
+            Made a few site such as register, update employee information with Vue.js + Nuxt.js
           </Typography>
         </Paper>
       </div>
@@ -206,27 +223,28 @@ const App: React.FC = () =>
           <Typography component="p" color="inherit" align="left">Full-stack Engineer</Typography>
         </Paper>
         <Paper className={classes.paperDetail}>
-          <Typography variant="h4" align="left">Chat tool(Customer support chat service)</Typography>
+          <Typography variant="h4" align="left">Customer support chat service</Typography>
           {/* <Typography component="a" align="left" ref="https://auth.yayoi-kk.co.jp/auth/sign_in.do?service_id=mypoweb&success=https%3A%2F%2Fmyportal.yayoi-kk.co.jp%2F">Link</Typography> */}
-          <Typography component="p" align="left">
-            Architected serverless application with AWS services(Lambda + Node.js, API Gateway, DynamoDB, S3)
-            Managed 2 programmer  members’ schedule and tasks
-            Made specifications and test scripts
-            Reviewed specifications and codes
+          <Typography className={classes.typographyProjectDetail} component="p" align="left">
+            Architected serverless application with AWS services(Lambda + Node.js, API Gateway, DynamoDB, S3),
+            Managed 2 programmer members' schedule and tasks,
+            Reviewed specifications and codes the members made,
+            Made specifications,
             Deployed application all of environment to each AWS services
         </Typography>
-          <Typography variant="h4" align="left">Portal site(Accountant services integration site)</Typography>
-          <Typography component="p" align="left">
-            Defined business requirement
-            Made specifications and test scripts
-            Programmed background (Java + Spring Framework), frontend (HTML, CSS + SCSS, Javascript + jQuery), unit test codes and shell scripts
-            Deployed application and all of the environment to CentOS on Amazon EC2 with Jenkins
-            Maintained or added setting Nginx server
+          <Typography variant="h4" align="left">Portal site for accountants</Typography>
+          <Typography className={classes.typographyProjectDetail} component="p" align="left">
+            Defined business requirement,
+            Made specifications and test scripts,
+            Programmed background (Java + Spring Framework), frontend (HTML, CSS + SCSS, Javascript + jQuery), unit test codes and shell scripts,
+            Deployed application and all of the environment to CentOS on Amazon EC2 with Jenkins,
+            Maintained or added setting Nginx server,
             Monitored log of application and server
         </Typography>
-          <Typography variant="h4" component="h3" align="left">Message service(Message to the portal site for users)</Typography>
-          <Typography component="p" align="left">
-
+          <Typography variant="h4" component="h3" align="left">Message service</Typography>
+          <Typography className={classes.typographyProjectDetail} component="p" align="left">
+            Optimized sending message function at Lambda with recursion.
+            The function became to be able to adjust easily performance as much as whoever want, such as 10 times or 1000 times than before.
           </Typography>
         </Paper>
       </div>
@@ -237,12 +255,12 @@ const App: React.FC = () =>
           <Typography component="p" color="inherit" align="left">Web Developer</Typography>
         </Paper>
         <Paper className={classes.paperDetail}>
-          <Typography variant="h4" component="h3" align="left">Portal site(videochat communication services integration site)</Typography>
-          <Typography component="p" align="left" >
-            Programmed background (PHP + Symfony3), frontend (HTML, CSS, Javascript + jQuery), codes and shell scripts
+          <Typography variant="h4" component="h3" align="left">Portal site for video chat</Typography>
+          <Typography className={classes.typographyProjectDetail} component="p" align="left">
+            Programmed background (PHP + Symfony3), frontend (Twig, jQuery) and shell scripts,
           </Typography>
           <Typography variant="h4" component="h3" align="left">In-house API</Typography>
-          <Typography component="p" align="left">
+          <Typography className={classes.typographyProjectDetail} component="p" align="left">
             Programmed background with PHP + Symfony3
           </Typography>
         </Paper>
@@ -254,9 +272,11 @@ const App: React.FC = () =>
           <Typography component="p" color="inherit" align="left">Windows App Programmer</Typography>
         </Paper>
         <Paper className={classes.paperDetail}>
-          <Typography variant="h4" component="h3" align="left"></Typography>
-          <Typography component="p" align="left" >
-
+          <Typography variant="h4" component="h3" align="left">Mission-critical system Windows app</Typography>
+          <Typography className={classes.typographyProjectDetail} component="p" align="left">
+            Programmed C#.NET for management systems such as employee, branch, items, business days, etc.
+            Coded SQL(PL/SQ+) of Oracle Databases for warehouse shipment and stock movement,
+            Made business form with GrapeCity.
           </Typography>
         </Paper>
       </div>
