@@ -10,17 +10,23 @@
     "@types/node": "12.7.11",
     "@types/react": "16.9.5",
     "@types/react-dom": "16.9.1",
+    "@types/react-motion": "^0.0.29",
+    "gh-pages": "^2.1.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "react-motion": "^0.5.2",
     "react-scripts": "3.2.0",
     "typeface-roboto": "0.0.75",
     "typescript": "3.6.3"
   },
+  "homepage": "https://rio-ohashi.github.io/portfolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

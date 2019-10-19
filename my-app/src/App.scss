@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: #eae7e1;
+  overflow: hidden;
 }
 
 .App-header {
@@ -16,7 +17,7 @@
 
 .summary {
   font: bold 200% Consolas, Monaco, monospace;
-  width: 20ch;
+  width: 19ch;
   overflow: hidden;
   white-space: nowrap;
   border-right: 0.05em solid;
@@ -78,8 +79,8 @@
 }
 
 .profile--image {
-  height: 50vmin;
-  margin-bottom: 20px;
+  max-height: 50vmin;
+  margin-bottom: 10px;
 }
 
 #email1 {
@@ -91,45 +92,23 @@
 }
 
 @media screen and (max-width: 500px) {
-  .anime--flash {
+  .summary {
     font-size: 25px;
   }
 }
 
-@media screen and (max-width: 800px) {
-  .profile--left {
-    width: 60vmin;
-  }
-  .profile--image {
-    height: 60vmin;
-  }
-  #email1 {
-    display: none;
-  }
-  #email2 {
-    display: block;
-  }
-}
-
-@media screen and (min-width: 801px) and (max-width: 950px) {
+@media screen and (max-width: 850px) {
   .profile--right {
     max-width: 60vmin;
   }
   .profile--image {
-    height: 40vmin;
-  }
-  #email1 {
-    display: grid;
-  }
-  #email2 {
-    display: none;
+    max-height: 45vmin;
   }
 }
 
-@media screen and (min-width: 951px) {
+@media screen and (min-width: 851px) {
   .profile--right {
-    min-width: 70vmin;
-    max-width: 85vmin;
+    max-width: 60vmin;
   }
   .profile--image {
     height: 40vmin;
