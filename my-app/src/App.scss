@@ -71,7 +71,7 @@
 .profile--summary {
   font-size: 18px;
   color: gray;
-  margin: 0 0 30px 0;
+  margin-bottom: 20px;
 }
 
 .profile--left {
@@ -102,7 +102,7 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 830px) {
   .profile--right {
     max-width: 60vmin;
   }
@@ -111,9 +111,9 @@
   }
 }
 
-@media screen and (min-width: 851px) {
+@media screen and (min-width: 831px) {
   .profile--right {
-    max-width: 60vmin;
+    max-width: 65vmin;
   }
   .profile--image {
     height: 40vmin;
@@ -126,13 +126,24 @@
   }
 }
 
-.skills--child {
-  position: relative;
+.hobby {
+  height: 50px;
+  margin: 8px 9px 0 9px;
+  filter: grayscale(1);
+  object-fit: contain;
 }
 
-.skills--name {
-  font-weight: bold;
-  position: absolute;
-  text-align: center;
-  width: 100%;
+.hobbies {
+  display: flex;
+  flex-flow: wrap;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.hobby--text {
+  margin: 0 0 15px 20px;
+  text-align: left;
+  font-size: 20px;
+  color: #a2a4a4;
+  border-bottom: 1px #a2a4a4 solid;
 }

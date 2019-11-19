@@ -17,7 +17,8 @@
     "react-motion": "^0.5.2",
     "react-scripts": "3.2.0",
     "typeface-roboto": "0.0.75",
-    "typescript": "3.6.3"
+    "typescript": "3.6.3",
+    "webpack": "4.41.0"
   },
   "homepage": "https://rio-ohashi.github.io/portfolio/",
   "scripts": {

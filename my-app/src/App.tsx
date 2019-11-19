@@ -8,7 +8,7 @@ import Button from '@material-ui/core/Button';
 import Experience from './Experience'
 import Header from './Header'
 import SoftSkill from './SoftSkill'
-import TechSkill from './TechSkill'
+import Hobby from './Hobby'
 // import { Motion, spring } from 'react-motion';
 
 import './App.scss';
@@ -101,7 +101,8 @@ const App: React.FC = () =>
             <p className="profile--summary">
               Hi! My name is Rio Ohashi.I'm a Full-Stack Developer, and highly adaptable and eager to learn new technologies continuously to improve my skills.
               </p>
-            <TechSkill style={classes} />
+            <p className="hobby--text">HOBBY</p>
+            <Hobby style={classes} />
           </span>
           <a id="email2" className={classes.email} href="mailto:rio.ohashi01@gmail.com">
             <Button variant="contained" color="default" className={classes.button}>

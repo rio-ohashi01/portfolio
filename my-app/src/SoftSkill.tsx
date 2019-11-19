@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { AspectRatio, CloudOutlined, DesktopWindowsRounded, ViewQuiltOutlined, Storage } from '@material-ui/icons/';
+import { AspectRatio, CloudOutlined, DesktopWindowsRounded, ViewQuiltOutlined, DnsOutlined, Cached } from '@material-ui/icons/';
 import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -13,10 +13,10 @@ class SoftSkillCards extends React.Component<{ style: any }>
   {
     var values: any = [["WEB DEVELOPMENT", "5+ years of experience in frontend and backend. Developed a portal site, a chat service, etc.", DesktopWindowsRounded],
     ["FULL-STACK", "Java, LAMP, JavaScript, HTML, CSS, etc. Used SQL and NoSQL databases.", AspectRatio],
-    ["DEVOPS", "Deployed web apps to EC2 with Jenkins, Maintained the apps,web server app(Nginx), relevant PIconS, environment of development.", DesktopWindowsRounded],
+    ["DEVOPS", "Deployed web apps to EC2 with Jenkins, Maintained the apps,web server app(Nginx), relevant PIconS, environment of development.", Cached],
     ["RESPONSIVE", "Adjusted Web design for computer, tablets. mobiles with Flexbox,etc.", ViewQuiltOutlined],
     ["AWS", "Architected a serverless chat app with API Gateway, Lambda and DynamoDB. Maintained EC2 apps. Improved message app with Lambda, SQS and SNS.", CloudOutlined],
-    ["SERVERLESS", "Architected and developed a serverless customer chat app with AWS services. Improved a serverless cutomer message app with AWS services. ", Storage]];
+    ["SERVERLESS", "Architected and developed a serverless customer chat app with AWS services. Improved a serverless cutomer message app with AWS services. ", DnsOutlined]];
 
     var cards = [];
     for (var value of values)

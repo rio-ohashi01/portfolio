@@ -41,15 +41,15 @@ export default class Experience extends React.Component<{ style: any }>{
         ],
         [
           ["Customer support chat service", "Architected serverless application with AWS services(Lambda + Node.js, API Gateway, DynamoDB, S3), Managed 2 programmer members' schedule and tasks,Reviewed specifications and codes the members made,Made specifications,Deployed application all of environment to each AWS services"],
-          ["Portal site for accountants", "Defined business requirement, Made specifications and test scripts, Programmed background (Java + Spring Framework), frontend (HTML, CSS + SCSS, Javascript + jQuery), unit test codes and shell scripts, Deployed application and all of the environment to CentOS on Amazon EC2 with Jenkins, Maintained or added setting Nginx server, Monitored log of application and server"],
-          ["Message service", "Optimized sending message function at Lambda with recursion. The function became to be able to adjust easily performance as much as whoever want, such as 10 times or 1000 times than before."]
+          ["Portal site for accountants", "Defined business requirement, Made specifications and test scripts, Programmed background (Java + Spring Framework), frontend (HTML, CSS + SCSS, Javascript + jQuery), unit test codes and shell scripts, Tested the program, Deployed application and all of the environment to CentOS on Amazon EC2 with Jenkins, Maintained or added setting Nginx server, Monitored log of application and server"],
+          ["Message service", "Optimized sending message function at Lambda(Node.js) with recursion. The function became to be able to adjust easily performance as much as whoever want, such as 10 times or 1000 times than before."]
         ],
         [
           ["Portal site for video chat", "Programmed background (PHP + Symfony3), frontend (Twig, jQuery) and shell scripts, Upgraded web framework Symfony2 to Symfony3"],
-          ["In-house API", "Programmed background with PHP + Symfony3"]
+          ["In-house API", "Programmed background with PHP + Symfony3, Tested the program"]
         ],
         [
-          ["Mission-critical system Windows app", "Programmed C#.NET for management systems such as employee, branch, items, business days, etc. Coded SQL(PL/SQ+) of Oracle Databases for warehouse shipment and stock movement, Made business form with GrapeCity."]
+          ["Mission-critical system Windows app", "Programmed C#.NET for management systems such as employee, branch, items, business days, etc. Coded SQL(PL/SQ+) of Oracle Databases for warehouse shipment and stock movement, Tested the program, Made business form with GrapeCity."]
         ]
       ];
 
