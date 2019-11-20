@@ -89,7 +89,7 @@ const App: React.FC = () =>
         <p className="heading--medium">ABOUT US</p>
         <div className="profile">
           <span className="profile--left">
-            <img src={profileImg} className="profile--image"></img>
+            <img src={profileImg} className="profile--image" alt="profile"></img>
             <a id="email1" className={classes.email} href="mailto:rio.ohashi01@gmail.com">
               <Button variant="contained" color="default" className={classes.button}>
                 CONTACT ME

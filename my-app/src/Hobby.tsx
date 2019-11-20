@@ -12,12 +12,12 @@ class Hobbies extends React.Component<{ style: any }>{
   {
     var values: Array<Array<any | String>> =
       [
-        [Movie, "Movie"],
-        [Game, "Game"],
-        [Workout, "Workout"],
-        [Beer, "Drinking"],
-        [Shuttle, "Travel"],
-        [Snow, "WinterSports"]
+        [1, Movie, "Movie"],
+        [2, Game, "Game"],
+        [3, Workout, "Workout"],
+        [4, Beer, "Drinking"],
+        [5, Shuttle, "Travel"],
+        [6, Snow, "WinterSports"]
       ];
 
     var hobbies = [];
@@ -25,9 +25,9 @@ class Hobbies extends React.Component<{ style: any }>{
     for (var value of values)
     {
       hobbies.push(
-        <span>
-          <img className="hobby" src={value[0]}></img>
-          <div>{value[1]}</div>
+        <span key={value[0]}>
+          <img className="hobby" src={value[1]} alt="hobby"></img>
+          <div>{value[2]}</div>
         </span>
       );
     }

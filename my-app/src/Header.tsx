@@ -16,17 +16,17 @@ export default class Header extends React.Component
           <a href="https://m.facebook.com/monotori333"
             target="_blank"
             rel="noopener noreferrer">
-            <img src={flogo} className="logo-link" />
+            <img src={flogo} className="logo-link" alt="facebook" />
           </a>
           <a href="https://www.linkedin.com/in/rio-ohashi/"
             target="_blank"
             rel="noopener noreferrer">
-            <img src={lilogo} className="logo-link" />
+            <img src={lilogo} className="logo-link" alt="LinkedIn" />
           </a>
           <a href="https://github.com/rio-ohashi"
             target="_blank"
             rel="noopener noreferrer">
-            <img src={ghlogo} className="logo-link" />
+            <img src={ghlogo} className="logo-link" alt="Github" />
           </a>
         </span>
       </header>
