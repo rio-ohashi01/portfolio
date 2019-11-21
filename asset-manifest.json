@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6fe9ba74.chunk.css",
+    "main.css": "/portfolio/static/css/main.86fe2611.chunk.css",
     "main.js": "/portfolio/static/js/main.3cb81104.chunk.js",
     "main.js.map": "/portfolio/static/js/main.3cb81104.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.341b3be4.js",
@@ -9,10 +9,10 @@
     "static/js/2.f03e3b4d.chunk.js": "/portfolio/static/js/2.f03e3b4d.chunk.js",
     "static/js/2.f03e3b4d.chunk.js.map": "/portfolio/static/js/2.f03e3b4d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.2f7fc12b120259a49dd4a79d49d6537b.js": "/portfolio/precache-manifest.2f7fc12b120259a49dd4a79d49d6537b.js",
+    "precache-manifest.3f98512a2815be12bb6b22ed628aa192.js": "/portfolio/precache-manifest.3f98512a2815be12bb6b22ed628aa192.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.15c52e38.chunk.css.map": "/portfolio/static/css/2.15c52e38.chunk.css.map",
-    "static/css/main.6fe9ba74.chunk.css.map": "/portfolio/static/css/main.6fe9ba74.chunk.css.map",
+    "static/css/main.86fe2611.chunk.css.map": "/portfolio/static/css/main.86fe2611.chunk.css.map",
     "static/media/IMG_0980.jpg": "/portfolio/static/media/IMG_0980.ff18f83e.jpg",
     "static/media/LI_logo.png": "/portfolio/static/media/LI_logo.2161c94b.png",
     "static/media/index.css": "/portfolio/static/media/roboto-latin-900italic.ebf6d164.woff2"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.341b3be4.js",
     "static/css/2.15c52e38.chunk.css",
     "static/js/2.f03e3b4d.chunk.js",
-    "static/css/main.6fe9ba74.chunk.css",
+    "static/css/main.86fe2611.chunk.css",
     "static/js/main.3cb81104.chunk.js"
   ]
 }
