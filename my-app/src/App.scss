@@ -71,7 +71,8 @@
 .profile--summary {
   font-size: 18px;
   color: gray;
-  margin-bottom: 20px;
+  margin: 0 0 20px 20px;
+  text-align: left;
 }
 
 .profile--left {
@@ -86,6 +87,29 @@
 .profile--image {
   max-height: 50vmin;
   margin-bottom: 10px;
+}
+
+.hobby {
+  height: 70px;
+  width: 70px;
+  margin: 20px 30px 0 30px;
+  filter: grayscale(1);
+  object-fit: contain;
+}
+
+.hobbies {
+  display: flex;
+  flex-flow: wrap;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.hobby--text {
+  margin: 0 0 10px 20px;
+  text-align: left;
+  font-size: 20px;
+  color: #a2a4a4;
+  border-bottom: 1px #a2a4a4 solid;
 }
 
 #email1 {
@@ -124,27 +148,4 @@
   #email2 {
     display: none;
   }
-}
-
-.hobby {
-  height: 70px;
-  width: 70px;
-  margin: 20px 30px 0 30px;
-  filter: grayscale(1);
-  object-fit: contain;
-}
-
-.hobbies {
-  display: flex;
-  flex-flow: wrap;
-  margin-bottom: 20px;
-  justify-content: center;
-}
-
-.hobby--text {
-  margin: 0 0 10px 20px;
-  text-align: left;
-  font-size: 20px;
-  color: #a2a4a4;
-  border-bottom: 1px #a2a4a4 solid;
 }
